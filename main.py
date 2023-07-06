@@ -1,5 +1,4 @@
 import spacy
-
 from scraper_characters import CharacterScraper
 import pandas as pd
 import pprint as pp
@@ -15,4 +14,6 @@ find.get_episodes()
 
 episode_df = pd.DataFrame(find.episodes)
 print(episode_df)
+
+
 
