@@ -14,16 +14,23 @@ episode_list = [{'ep': i.text.split('/')[0],
       'url': i.find_element(By.CLASS_NAME, 'category-page__member-link').get_attribute('href')}
      for i in episode[1:]]
 
-# print(episode_list[0]) Works... so dont know hwy this wont work (bellow)
-# for i in episode_list[0]:
-#     driver.get(i['url']) #  <---- ERROR HERE
+
+#WORKS: ----
+# for ep_dict in episode_list:
+#     driver.get(ep_dict['url']) #get link to specific episode
+#     ep_text = driver.find_elements(By.CSS_SELECTOR, "dl")
+#     print('--------TEXT BREAK--------')
+#     for line in ep_text[1:]:
+#         print(line.text)
+
 
 for ep_dict in episode_list:
     driver.get(ep_dict['url'])
     ep_text = driver.find_elements(By.CSS_SELECTOR, "dl")
-    print('--------TEXT BREAK--------')
-    for line in ep_text[1:]:
-        print(line.text)
+    xx = driver.find_element(By.XPATH, '//*[@id="mw-content-text"]/div/aside/nav')
+    print(str(xx.text))
+
+
 
 
 

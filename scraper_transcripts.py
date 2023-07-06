@@ -9,6 +9,7 @@ class TextScraper:
     def __init__(self):
         self.driver = webdriver.Chrome()
         self.episode = []
+        self.ep_number = []
 
     def get_episode(self):
         """Get episode name & URL: store in nested dict"""
@@ -28,4 +29,7 @@ class TextScraper:
     def create_episode_file(self):
         """Take parsed text & save to a text file in project"""
 
+        pass
+
+    def format_season(self, text):
         pass
