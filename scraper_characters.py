@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 
 URL = "https://adventuretime.fandom.com/wiki/Category:Main_Characters"
 
-class CharacterScrapper:
+class CharacterScraper:
     """Access character data from fandomwiki"""
 
     def __init__(self):

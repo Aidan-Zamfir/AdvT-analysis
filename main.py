@@ -1,6 +1,6 @@
 import spacy
 
-from scraper_characters import CharacterScrapper
+from scraper_characters import CharacterScraper
 import pandas as pd
 import pprint as pp
 from spacy import displacy
@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 NER = spacy.load(("en_core_web_sm"))
 
-find = CharacterScrapper()
+find = CharacterScraper()
 find.get_characters()
 find.get_episodes()
 
