@@ -1,1 +1,1 @@
-Selenium webscraping & data analysis project
+Selenium webscraping & data analysis (learning) project
