@@ -1,9 +1,15 @@
+import spacy
+
+from scraper_characters import CharacterScrapper
 import pandas as pd
 import pprint as pp
-import time
-from scraper import Scrapper
+from spacy import displacy
+import networkx as nx
+import matplotlib.pyplot as plt
 
-find = Scrapper()
+NER = spacy.load(("en_core_web_sm"))
+
+find = CharacterScrapper()
 find.get_characters()
 find.get_episodes()
 

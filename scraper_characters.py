@@ -1,9 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
 
 URL = "https://adventuretime.fandom.com/wiki/Category:Main_Characters"
-class Scrapper:
+
+class CharacterScrapper:
     """Access character data from fandomwiki"""
 
     def __init__(self):
