@@ -1,19 +1,24 @@
-import spacy
 from scraper_characters import CharacterScraper
+from scraper_transcripts import TextScraper
+
 import pandas as pd
-import pprint as pp
+
+import spacy
 from spacy import displacy
+
 import networkx as nx
+
 import matplotlib.pyplot as plt
 
 NER = spacy.load(("en_core_web_sm"))
 
-find = CharacterScraper()
-find.get_characters()
-find.get_episodes()
+find_character = CharacterScraper()
+collect_text = TextScraper()
 
-episode_df = pd.DataFrame(find.episodes)
-print(episode_df)
+find_character.scrape()
+collect_text.launch()
+
+
 
 
 
