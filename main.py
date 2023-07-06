@@ -5,6 +5,8 @@ from scraper import Scrapper
 
 find = Scrapper()
 find.get_characters()
+find.get_episodes()
 
-pp.pprint(find.main_characters)
+episode_df = pd.DataFrame(find.episodes)
+print(episode_df)
 
