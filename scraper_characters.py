@@ -1,5 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import pandas as pd
+
 
 URL = "https://adventuretime.fandom.com/wiki/Category:Main_Characters"
 
@@ -29,6 +31,13 @@ class CharacterScraper:
             self.episodes = [{'episode_name': e.text, 'character_name': i['name']} for e in episode]
 
 
+    def dataframe(self):
+        """Create dataframe from episode/character data and save to csv"""
+        character_df = pd.DataFrame(self.episodes)
+        character_df.to_csv('character_list.csv')
+
+
     def scrape(self):
         self.get_characters()
         self.get_episodes()
+        self.dataframe()
