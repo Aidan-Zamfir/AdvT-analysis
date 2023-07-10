@@ -28,7 +28,9 @@ class CharacterScraper:
             self.driver.get(i['url'])
             episode = self.driver.find_elements(By.CSS_SELECTOR, 'table[cellpadding="0"] ul li a')
 
-            self.episodes = [{'episode_name': e.text, 'character_name': i['name']} for e in episode]
+            for e in episode:
+                self.episodes.append({'episode_name': e.text, 'character_name': i['name']})
+            # self.episodes = [{'episode_name': e.text, 'character_name': i['name']} for e in episode]
 
 
     def dataframe(self):

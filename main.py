@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 
 #STEP 1:
 
-# find_character = CharacterScraper()
-# find_character.scrape()
+find_character = CharacterScraper()
+find_character.scrape()
 
 #Use when transcript text files (in data folder) DONT exist:
 # collect_text = TextScraper()
@@ -23,11 +23,3 @@ import matplotlib.pyplot as plt
 #STEP 2:
 x = CharacterData()
 x.from_episode() #
-
-
-#
-# def filter_ent(ent_list, char_df):
-#     return [i for i in ent_list if i in list(char_df.character_name)]
-#
-# xx =filter_ent(['Jake', 'f', 'fsfe'], character_df)
-# print(xx)

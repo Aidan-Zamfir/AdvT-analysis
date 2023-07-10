@@ -1,235 +1,545 @@
 ,episode_name,character_name
-0,Slumber Party Panic,Princess Bubblegum
-1,Trouble in Lumpy Space,Princess Bubblegum
-2,Mallow Tea Ceremony,Princess Bubblegum
-3,The Duke,Princess Bubblegum
-4,What Have You Done?,Princess Bubblegum
-5,The Other Tarts,Princess Bubblegum
-6,The Real You,Princess Bubblegum
-7,Video Makers,Princess Bubblegum
-8,Hug Wolf,Princess Bubblegum
-9,Death in Bloom,Princess Bubblegum
-10,Susan Strong,Princess Bubblegum
-11,Go With Me,Princess Bubblegum
-12,Video Makers,Princess Bubblegum
-13,Lemonhope Part 1,Princess Bubblegum
-14,Elemental,Princess Bubblegum
-15,Mortal Folly,Princess Bubblegum
-16,Mortal Recoil,Princess Bubblegum
-17,Too Young,Princess Bubblegum
-18,Wizard Battle,Princess Bubblegum
-19,What Was Missing,Princess Bubblegum
-20,rock shirt from Marceline,Princess Bubblegum
-21,The Creeps,Princess Bubblegum
-22,Holly Jolly Secrets Part II,Princess Bubblegum
-23,Goliad,Princess Bubblegum
-24,Burning Low,Princess Bubblegum
-25,Lady & Peebles,Princess Bubblegum
-26,You Made Me,Princess Bubblegum
-27,Reign of Gunters,Princess Bubblegum
-28,All the Little People,Princess Bubblegum
-29,All Your Fault,Princess Bubblegum
-30,The Great Bird Man,Princess Bubblegum
-31,The Suitor,Princess Bubblegum
-32,Another Five More Short Graybles,Princess Bubblegum
-33,"Wizards Only, Fools",Princess Bubblegum
-34,Time Sandwich,Princess Bubblegum
-35,Sky Witch,Princess Bubblegum
-36,Too Old,Princess Bubblegum
-37,Earth & Water,Princess Bubblegum
-38,The Vault,Princess Bubblegum
-39,her amulet,Princess Bubblegum
-40,Red Starved,Princess Bubblegum
-41,holo-pendant,Princess Bubblegum
-42,We Fixed a Truck,Princess Bubblegum
-43,James,Princess Bubblegum
-44,Apple Wedding,Princess Bubblegum
-45,Rattleballs,Princess Bubblegum
-46,Breezy,Princess Bubblegum
-47,James II,Princess Bubblegum
-48,Something Big,Princess Bubblegum
-49,Princess Day,Princess Bubblegum
-50,Nemesis,Princess Bubblegum
-51,Jake the Brick,Princess Bubblegum
-52,The Pajama War,Princess Bubblegum
-53,Timmy,Princess Bubblegum
-54,Hot Diggity Doom,Princess Bubblegum
-55,Have You Seen the Muffin Mess,Princess Bubblegum
-56,Varmints,Princess Bubblegum
-57,Vamps About,Princess Bubblegum
-58,Scamps,Princess Bubblegum
-59,The Thin Yellow Line,Princess Bubblegum
-60,Banana Guards,Princess Bubblegum
-61,Broke His Crown,Princess Bubblegum
-62,Don't Look,Princess Bubblegum
-63,Bun Bun,Princess Bubblegum
-64,The Music Hole,Princess Bubblegum
-65,Wheels,Princess Bubblegum
-66,Princess Day,Princess Bubblegum
-67,High Strangeness,Princess Bubblegum
-68,Jelly Beans Have Power,Princess Bubblegum
-69,The Invitation,Princess Bubblegum
-70,Orb,Princess Bubblegum
-71,Elements,Princess Bubblegum
-72,Patience St. Pim,Princess Bubblegum
-73,Mother Gum,Princess Bubblegum
-74,Skyhooks II,Princess Bubblegum
-75,Animated short,Princess Bubblegum
-76,Slumber Party Panic,Princess Bubblegum
-77,The Enchiridion!,Princess Bubblegum
-78,Ricardio the Heart Guy,Princess Bubblegum
-79,The Duke,Princess Bubblegum
-80,What Have You Done?,Princess Bubblegum
-81,The Other Tarts,Princess Bubblegum
-82,The Real You,Princess Bubblegum
-83,Go With Me,Princess Bubblegum
-84,Mortal Folly,Princess Bubblegum
-85,Mortal Recoil,Princess Bubblegum
-86,Too Young,Princess Bubblegum
-87,Wizard Battle,Princess Bubblegum
-88,What Was Missing,Princess Bubblegum
-89,The Creeps,Princess Bubblegum
-90,From Bad to Worse,Princess Bubblegum
-91,Five Short Graybles,Princess Bubblegum
-92,Goliad,Princess Bubblegum
-93,Princess Cookie,Princess Bubblegum
-94,Burning Low,Princess Bubblegum
-95,Lady & Peebles,Princess Bubblegum
-96,You Made Me,Princess Bubblegum
-97,Reign of Gunters,Princess Bubblegum
-98,The Lich,Princess Bubblegum
-99,All Your Fault,Princess Bubblegum
-100,A Glitch is a Glitch,Princess Bubblegum
-101,Princess Potluck,Princess Bubblegum
-102,The Suitor,Princess Bubblegum
-103,"The Party's Over, Isla de Señorita",Princess Bubblegum
-104,"Wizards Only, Fools",Princess Bubblegum
-105,Sky Witch,Princess Bubblegum
-106,Too Old,Princess Bubblegum
-107,Earth & Water,Princess Bubblegum
-108,The Vault,Princess Bubblegum
-109,James,Princess Bubblegum
-110,Root Beer Guy,Princess Bubblegum
-111,Apple Wedding,Princess Bubblegum
-112,Rattleballs,Princess Bubblegum
-113,Bad Timing,Princess Bubblegum
-114,Lemonhope Part 1,Princess Bubblegum
-115,Lemonhope Part 2,Princess Bubblegum
-116,James II,Princess Bubblegum
-117,The Tower,Princess Bubblegum
-118,Something Big,Princess Bubblegum
-119,Nemesis,Princess Bubblegum
-120,The Cooler,Princess Bubblegum
-121,The Pajama War,Princess Bubblegum
-122,Graybles 1000+,Princess Bubblegum
-123,Hot Diggity Doom,Princess Bubblegum
-124,Have You Seen the Muffin Mess,Princess Bubblegum
-125,Bonnie and Neddy,Princess Bubblegum
-126,Varmints,Princess Bubblegum
-127,Marceline The Vampire Queen,Princess Bubblegum
-128,Vamps About,Princess Bubblegum
-129,May I Come In?,Princess Bubblegum
-130,Take Her Back,Princess Bubblegum
-131,Checkmate,Princess Bubblegum
-132,The Dark Cloud,Princess Bubblegum
-133,The Thin Yellow Line,Princess Bubblegum
-134,Broke His Crown,Princess Bubblegum
-135,Elemental,Princess Bubblegum
-136,The Music Hole,Princess Bubblegum
-137,Reboot,Princess Bubblegum
-138,High Strangeness,Princess Bubblegum
-139,Jelly Beans Have Power,Princess Bubblegum
-140,The Invitation,Princess Bubblegum
-141,Skyhooks,Princess Bubblegum
-142,Hero Heart,Princess Bubblegum
-143,Bonnibel Bubblegum,Princess Bubblegum
-144,Seventeen,Princess Bubblegum
-145,Gumbaldia,Princess Bubblegum
-146,Come Along With Me,Princess Bubblegum
-147,Obsidian,Princess Bubblegum
-148,Trouble in Lumpy Space,Princess Bubblegum
-149,What is Life?,Princess Bubblegum
-150,Dungeon,Princess Bubblegum
-151,Power Animal,Princess Bubblegum
-152,To Cut a Woman's Hair,Princess Bubblegum
-153,Death in Bloom,Princess Bubblegum
-154,Susan Strong,Princess Bubblegum
-155,Video Makers,Princess Bubblegum
-156,No One Can Hear You,Princess Bubblegum
-157,Holly Jolly Secrets Part I,Princess Bubblegum
-158,Holly Jolly Secrets Part II,Princess Bubblegum
-159,Incendium,Princess Bubblegum
-160,Dream of Love,Princess Bubblegum
-161,In Your Footsteps,Princess Bubblegum
-162,Hug Wolf,Princess Bubblegum
-163,Princess Monster Wife,Princess Bubblegum
-164,King Worm,Princess Bubblegum
-165,Jake The Dog,Princess Bubblegum
-166,All the Little People,Princess Bubblegum
-167,The Great Bird Man,Princess Bubblegum
-168,Another Five More Short Graybles,Princess Bubblegum
-169,Candy Streets,Princess Bubblegum
-170,Frost & Fire,Princess Bubblegum
-171,Time Sandwich,Princess Bubblegum
-172,Red Starved,Princess Bubblegum
-173,We Fixed a Truck,Princess Bubblegum
-174,Play Date,Princess Bubblegum
-175,Breezy,Princess Bubblegum
-176,Food Chain,Princess Bubblegum
-177,Princess Day,Princess Bubblegum
-178,Everything's Jake,Princess Bubblegum
-179,Jake The Brick,Princess Bubblegum
-180,Dentist,Princess Bubblegum
-181,The Mountain,Princess Bubblegum
-182,Friends Forever,Princess Bubblegum
-183,Hoots,Princess Bubblegum
-184,Water Park Prank,Princess Bubblegum
-185,The Comet,Princess Bubblegum
-186,Cherry Cream Soda,Princess Bubblegum
-187,The Empress Eyes,Princess Bubblegum
-188,"The More You Moe, The Moe You Know (Part I)",Princess Bubblegum
-189,President Porpoise is Missing,Princess Bubblegum
-190,Scamps,Princess Bubblegum
-191,The Hall of Egress,Princess Bubblegum
-192,Don't Look,Princess Bubblegum
-193,Beyond the Grotto,Princess Bubblegum
-194,Pink Pond,Princess Bubblegum
-195,Bun Bun,Princess Bubblegum
-196,Daddy-Daughter Card Wars,Princess Bubblegum
-197,Reboot,Princess Bubblegum
-198,Two Swords,Princess Bubblegum
-199,Do No Harm,Princess Bubblegum
-200,Wheels,Princess Bubblegum
-201,Whipple the Happy Dragon,Princess Bubblegum
-202,The Light Cloud,Princess Bubblegum
-203,Orb,Princess Bubblegum
-204,Bespoken For,Princess Bubblegum
-205,Happy Warrior,Princess Bubblegum
-206,Skyhooks II,Princess Bubblegum
-207,Abstract,Princess Bubblegum
-208,Ketchup,Princess Bubblegum
-209,Whispers,Princess Bubblegum
-210,Three Buckets,Princess Bubblegum
-211,The Wild Hunt,Princess Bubblegum
-212,Son of Rap Bear,Princess Bubblegum
-213,Marcy & Hunson,Princess Bubblegum
-214,Blenanas,Princess Bubblegum
-215,Diamonds and Lemons,Princess Bubblegum
-216,Together Again,Princess Bubblegum
-217,Wizard City,Princess Bubblegum
-218,Business Time,Princess Bubblegum
-219,Still,Princess Bubblegum
-220,Apple Thief,Princess Bubblegum
-221,Marceline's Closet,Princess Bubblegum
-222,Hot to the Touch,Princess Bubblegum
-223,Gotcha!,Princess Bubblegum
-224,I Remember You,Princess Bubblegum
-225,Mystery Dungeon,Princess Bubblegum
-226,The Red Throne,Princess Bubblegum
-227,The Visitor,Princess Bubblegum
-228,Walnuts & Rain,Princess Bubblegum
-229,Mama Said,Princess Bubblegum
-230,Everything Stays,Princess Bubblegum
-231,Lady Rainicorn of the Crystal Dimension,Princess Bubblegum
-232,Winter Light,Princess Bubblegum
-233,Always BMO Closing,Princess Bubblegum
+0,Guardians of Sunshine,BMO
+1,Video Makers,BMO
+2,What Was Missing,BMO
+3,The Creeps,BMO
+4,Holly Jolly Secrets Part I,BMO
+5,Holly Jolly Secrets Part II,BMO
+6,Five Short Graybles,BMO
+7,Hug Wolf,BMO
+8,BMO Noire,BMO
+9,Five More Short Graybles,BMO
+10,Puhoy,BMO
+11,BMO Lost,BMO
+12,James Baxter the Horse,BMO
+13,Shh!,BMO
+14,Be More,BMO
+15,We Fixed a Truck,BMO
+16,Apple Wedding,BMO
+17,Ghost Fly,BMO
+18,Jake The Brick,BMO
+19,Chips and Ice Cream,BMO
+20,Graybles 1000+,BMO
+21,All's Well That Rats Swell,BMO
+22,Football,BMO
+23,"The More You Moe, The Moe You Know (Part I)",BMO
+24,"The More You Moe, The Moe You Know (Part II)",BMO
+25,Angel Face,BMO
+26,Bad Jubies,BMO
+27,Horse and Ball,BMO
+28,The Invitation,BMO
+29,Whipple The Happy Dragon,BMO
+30,Imaginary Resources,BMO
+31,The Light Cloud,BMO
+32,Orb,BMO
+33,Skyhooks,BMO
+34,Ketchup,BMO
+35,Always BMO Closing,BMO
+36,Seventeen,BMO
+37,Come Along With Me,BMO
+38,BMO,BMO
+39,Business Time,BMO
+40,My Two Favorite People,BMO
+41,Evicted!,BMO
+42,What is Life?,BMO
+43,Donny,BMO
+44,Rainy Day Daydream,BMO
+45,Slow Love,BMO
+46,Power Animal,BMO
+47,Her Parents,BMO
+48,Conquest of Cuteness,BMO
+49,Too Young,BMO
+50,The Monster,BMO
+51,Fionna and Cake,BMO
+52,The New Frontier,BMO
+53,Dad's Dungeon,BMO
+54,Incendium,BMO
+55,Dream of Love,BMO
+56,Daddy's Little Monster,BMO
+57,In Your Footsteps,BMO
+58,Beyond this Earthly Realm,BMO
+59,Card Wars,BMO
+60,Gotcha!,BMO
+61,Burning Low,BMO
+62,King Worm,BMO
+63,All the Little People,BMO
+64,Jake the Dad,BMO
+65,Davey,BMO
+66,Little Dude,BMO
+67,Bad Little Boy,BMO
+68,A Glitch is a Glitch,BMO
+69,One Last Job,BMO
+70,Another Five More Short Graybles,BMO
+71,Candy Streets,BMO
+72,Jake Suit,BMO
+73,Frost & Fire,BMO
+74,Too Old,BMO
+75,Earth & Water,BMO
+76,Time Sandwich,BMO
+77,The Vault,BMO
+78,Love Games,BMO
+79,Box Prince,BMO
+80,Play Date,BMO
+81,The Pit,BMO
+82,The Tower,BMO
+83,Sad Face,BMO
+84,Furniture & Meat,BMO
+85,"Thanks for the Crabapples, Giuseppe",BMO
+86,Joshua and Margaret Investigations,BMO
+87,Everything's Jake,BMO
+88,The Visitor,BMO
+89,The Mountain,BMO
+90,Dark Purple,BMO
+91,Jermaine,BMO
+92,Hoots,BMO
+93,The Comet,BMO
+94,President Porpoise is Missing!,BMO
+95,Blank Eyed Girl,BMO
+96,Crossover,BMO
+97,The Hall of Egress,BMO
+98,Flute Spell,BMO
+99,Don't Look,BMO
+100,Beyond the Grotto,BMO
+101,I Am a Sword,BMO
+102,The Music Hole,BMO
+103,Daddy-Daughter Card Wars,BMO
+104,Two Swords,BMO
+105,High Strangeness,BMO
+106,Mysterious Island,BMO
+107,Hide and Seek,BMO
+108,Min and Marty,BMO
+109,Helpers,BMO
+110,Hero Heart,BMO
+111,Skyhooks II,BMO
+112,Abstract,BMO
+113,Fionna and Cake and Fionna,BMO
+114,Whispers,BMO
+115,Three Buckets,BMO
+116,Son of Rap Bear,BMO
+117,Bonnibel Bubblegum,BMO
+118,Blenanas,BMO
+119,Animated short,Ice King
+120,Prisoners of Love,Ice King
+121,Ricardio the Heart Guy,Ice King
+122,What is Life?,Ice King
+123,When Wedding Bells Thaw,Ice King
+124,What Have You Done?,Ice King
+125,The Eyes,Ice King
+126,Loyalty to the King,Ice King
+127,The Chamber of Frozen Blades,Ice King
+128,Mortal Folly,Ice King
+129,Mortal Recoil,Ice King
+130,The Wand,Ice King
+131,Hitman,Ice King
+132,Still,Ice King
+133,Wizard Battle,Ice King
+134,Holly Jolly Secrets Part I,Ice King
+135,Holly Jolly Secrets Part II,Ice King
+136,Five Short Graybles,Ice King
+137,Princess Monster Wife,Ice King
+138,Beyond this Earthly Realm,Ice King
+139,Reign of Gunters,Ice King
+140,I Remember You,Ice King
+141,Five More Short Graybles,Ice King
+142,Mystery Dungeon,Ice King
+143,Bad Little Boy,Ice King
+144,Simon & Marcy,Ice King
+145,A Glitch is a Glitch,Ice King
+146,Princess Potluck,Ice King
+147,"The Party's Over, Isla de Señorita",Ice King
+148,Another Five More Short Graybles,Ice King
+149,Frost & Fire,Ice King
+150,Play Date,Ice King
+151,Betty,Ice King
+152,The Prince Who Wanted Everything,Ice King
+153,"Thanks for the Crabapples, Giuseppe",Ice King
+154,Friends Forever,Ice King
+155,Graybles 1000+,Ice King
+156,Water Park Prank,Ice King
+157,Orgalorg,Ice King
+158,"Sow, Do You like Them Apples",Ice King
+159,Empress Eyes,Ice King
+160,King's Ransom,Ice King
+161,Broke His Crown,Ice King
+162,Frog Seasons: Winter,Ice King
+163,Elemental,Ice King
+164,Five Short Tables,Ice King
+165,The Music Hole,Ice King
+166,Bespoken For,Ice King
+167,Winter Light,Ice King
+168,Hero Heart,Ice King
+169,Skyhooks II,Ice King
+170,Fionna and Cake and Fionna,Ice King
+171,Always BMO Closing,Ice King
+172,Blenanas,Ice King
+173,Come Along With Me,Ice King
+174,Evicted!,Ice King
+175,It Came from the Nightosphere,Ice King
+176,Conquest of Cuteness,Ice King
+177,Fionna and Cake,Ice King
+178,Thank You,Ice King
+179,King Worm,Ice King
+180,Lady & Peebles,Ice King
+181,The Lich,Ice King
+182,Finn The Human,Ice King
+183,Jake the Dog,Ice King
+184,All the Little People,Ice King
+185,"Wizards Only, Fools",Ice King
+186,Jake Suit,Ice King
+187,Earth & Water,Ice King
+188,Love Games,Ice King
+189,We Fixed a Truck,Ice King
+190,Something Big,Ice King
+191,Jake The Brick,Ice King
+192,The Cooler,Ice King
+193,Evergreen,Ice King
+194,Astral Plane,Ice King
+195,Hoots,Ice King
+196,You Forgot Your Floaties,Ice King
+197,Everything Stays,Ice King
+198,Take Her Back,Ice King
+199,The Dark Cloud,Ice King
+200,Summer Showers,Ice King
+201,President Porpoise is Missing!,Ice King
+202,Crossover,Ice King
+203,Don't Look,Ice King
+204,Beyond the Grotto,Ice King
+205,Do No Harm,Ice King
+206,Jelly Beans Have Power,Ice King
+207,The Light Cloud,Ice King
+208,Skyhooks,Ice King
+209,Cloudy,Ice King
+210,Slime Central,Ice King
+211,Happy Warrior,Ice King
+212,Seventeen,Ice King
+213,Gumbaldia,Ice King
+214,Diamonds and Lemons,Ice King
+215,Obsidian,Ice King
+216,Together Again,Ice King
+217,Business Time,Ice King
+218,Little Dude,Ice King
+219,Time Sandwich,Ice King
+220,Bad Timing,Ice King
+221,Vamps About,Ice King
+222,May I Come In?,Ice King
+223,Blank-Eyed Girl,Ice King
+224,Bun Bun,Ice King
+225,Preboot,Ice King
+226,Three Buckets,Ice King
+227,Son of Rap Bear,Ice King
+228,Marcy & Hunson,Ice King
+229,Temple of Mars,Ice King
+230,Issue 1,Ice King
+231,Issue 2,Ice King
+232,Issue 3,Ice King
+233,Issue 4,Ice King
+234,Issue 5,Ice King
+235,Issue 6,Ice King
+236,Issue 10,Ice King
+237,Issue 12,Ice King
+238,Issue 16,Ice King
+239,Issue 17,Ice King
+240,Issue 18,Ice King
+241,Issue 19,Ice King
+242,Issue 20,Ice King
+243,Evicted!,Marceline
+244,Henchman,Marceline
+245,It Came from the Nightosphere,Marceline
+246,Go With Me,Marceline
+247,Heat Signature,Marceline
+248,Memory of a Memory,Marceline
+249,What Was Missing,Marceline
+250,Marceline's Closet,Marceline
+251,Return to the Nightosphere,Marceline
+252,Daddy's Little Monster,Marceline
+253,I Remember You,Marceline
+254,Finn the Human,Marceline
+255,Farmworld Marceline,Marceline
+256,Five More Short Graybles,Marceline
+257,Bad Little Boy,Marceline
+258,Simon & Marcy,Marceline
+259,Sky Witch,Marceline
+260,Red Starved,Marceline
+261,Betty,Marceline
+262,Princess Day,Marceline
+263,"Sow, Do You like Them Apples",Marceline
+264,Varmints,Marceline
+265,Marceline The Vampire Queen,Marceline
+266,Everything Stays,Marceline
+267,Vamps About,Marceline
+268,The Empress Eyes,Marceline
+269,May I Come In?,Marceline
+270,Take Her Back,Marceline
+271,Checkmate,Marceline
+272,The Dark Cloud,Marceline
+273,Broke His Crown,Marceline
+274,The Music Hole,Marceline
+275,Skyhooks,Marceline
+276,Hero Heart,Marceline
+277,Ketchup,Marceline
+278,Seventeen,Marceline
+279,Marcy & Hunson,Marceline
+280,Come Along With Me,Marceline
+281,Obsidian,Marceline
+282,The Duke,Marceline
+283,Power Animal,Marceline
+284,Video Makers,Marceline
+285,Holly Jolly Secrets Part II,Marceline
+286,Jake the Dog,Marceline
+287,Farmworld Marceline,Marceline
+288,All the Little People,Marceline
+289,Time Sandwich,Marceline
+290,Ocarina,Marceline
+291,Jake The Brick,Marceline
+292,Astral Plane,Marceline
+293,Dark Purple,Marceline
+294,Hoots,Marceline
+295,Be Sweet,Marceline
+296,The Comet,Marceline
+297,President Porpoise is Missing!,Marceline
+298,Crossover,Marceline
+299,Farmworld Marceline,Marceline
+300,Beyond the Grotto,Marceline
+301,Wheels,Marceline
+302,The Invitation,Marceline
+303,The Light Cloud,Marceline
+304,Bespoken For,Marceline
+305,Skyhooks II,Marceline
+306,Whispers,Marceline
+307,Son of Rap Bear,Marceline
+308,Bonnibel Bubblegum,Marceline
+309,Diamonds and Lemons,Marceline
+310,Slumber Party Panic,Princess Bubblegum
+311,Trouble in Lumpy Space,Princess Bubblegum
+312,Mallow Tea Ceremony,Princess Bubblegum
+313,The Duke,Princess Bubblegum
+314,What Have You Done?,Princess Bubblegum
+315,The Other Tarts,Princess Bubblegum
+316,The Real You,Princess Bubblegum
+317,Video Makers,Princess Bubblegum
+318,Hug Wolf,Princess Bubblegum
+319,Death in Bloom,Princess Bubblegum
+320,Susan Strong,Princess Bubblegum
+321,Go With Me,Princess Bubblegum
+322,Video Makers,Princess Bubblegum
+323,Lemonhope Part 1,Princess Bubblegum
+324,Elemental,Princess Bubblegum
+325,Mortal Folly,Princess Bubblegum
+326,Mortal Recoil,Princess Bubblegum
+327,Too Young,Princess Bubblegum
+328,Wizard Battle,Princess Bubblegum
+329,What Was Missing,Princess Bubblegum
+330,rock shirt from Marceline,Princess Bubblegum
+331,The Creeps,Princess Bubblegum
+332,Holly Jolly Secrets Part II,Princess Bubblegum
+333,Goliad,Princess Bubblegum
+334,Burning Low,Princess Bubblegum
+335,Lady & Peebles,Princess Bubblegum
+336,You Made Me,Princess Bubblegum
+337,Reign of Gunters,Princess Bubblegum
+338,All the Little People,Princess Bubblegum
+339,All Your Fault,Princess Bubblegum
+340,The Great Bird Man,Princess Bubblegum
+341,The Suitor,Princess Bubblegum
+342,Another Five More Short Graybles,Princess Bubblegum
+343,"Wizards Only, Fools",Princess Bubblegum
+344,Time Sandwich,Princess Bubblegum
+345,Sky Witch,Princess Bubblegum
+346,Too Old,Princess Bubblegum
+347,Earth & Water,Princess Bubblegum
+348,The Vault,Princess Bubblegum
+349,her amulet,Princess Bubblegum
+350,Red Starved,Princess Bubblegum
+351,holo-pendant,Princess Bubblegum
+352,We Fixed a Truck,Princess Bubblegum
+353,James,Princess Bubblegum
+354,Apple Wedding,Princess Bubblegum
+355,Rattleballs,Princess Bubblegum
+356,Breezy,Princess Bubblegum
+357,James II,Princess Bubblegum
+358,Something Big,Princess Bubblegum
+359,Princess Day,Princess Bubblegum
+360,Nemesis,Princess Bubblegum
+361,Jake the Brick,Princess Bubblegum
+362,The Pajama War,Princess Bubblegum
+363,Timmy,Princess Bubblegum
+364,Hot Diggity Doom,Princess Bubblegum
+365,Have You Seen the Muffin Mess,Princess Bubblegum
+366,Varmints,Princess Bubblegum
+367,Vamps About,Princess Bubblegum
+368,Scamps,Princess Bubblegum
+369,The Thin Yellow Line,Princess Bubblegum
+370,Banana Guards,Princess Bubblegum
+371,Broke His Crown,Princess Bubblegum
+372,Don't Look,Princess Bubblegum
+373,Bun Bun,Princess Bubblegum
+374,The Music Hole,Princess Bubblegum
+375,Wheels,Princess Bubblegum
+376,Princess Day,Princess Bubblegum
+377,High Strangeness,Princess Bubblegum
+378,Jelly Beans Have Power,Princess Bubblegum
+379,The Invitation,Princess Bubblegum
+380,Orb,Princess Bubblegum
+381,Elements,Princess Bubblegum
+382,Patience St. Pim,Princess Bubblegum
+383,Mother Gum,Princess Bubblegum
+384,Skyhooks II,Princess Bubblegum
+385,Animated short,Princess Bubblegum
+386,Slumber Party Panic,Princess Bubblegum
+387,The Enchiridion!,Princess Bubblegum
+388,Ricardio the Heart Guy,Princess Bubblegum
+389,The Duke,Princess Bubblegum
+390,What Have You Done?,Princess Bubblegum
+391,The Other Tarts,Princess Bubblegum
+392,The Real You,Princess Bubblegum
+393,Go With Me,Princess Bubblegum
+394,Mortal Folly,Princess Bubblegum
+395,Mortal Recoil,Princess Bubblegum
+396,Too Young,Princess Bubblegum
+397,Wizard Battle,Princess Bubblegum
+398,What Was Missing,Princess Bubblegum
+399,The Creeps,Princess Bubblegum
+400,From Bad to Worse,Princess Bubblegum
+401,Five Short Graybles,Princess Bubblegum
+402,Goliad,Princess Bubblegum
+403,Princess Cookie,Princess Bubblegum
+404,Burning Low,Princess Bubblegum
+405,Lady & Peebles,Princess Bubblegum
+406,You Made Me,Princess Bubblegum
+407,Reign of Gunters,Princess Bubblegum
+408,The Lich,Princess Bubblegum
+409,All Your Fault,Princess Bubblegum
+410,A Glitch is a Glitch,Princess Bubblegum
+411,Princess Potluck,Princess Bubblegum
+412,The Suitor,Princess Bubblegum
+413,"The Party's Over, Isla de Señorita",Princess Bubblegum
+414,"Wizards Only, Fools",Princess Bubblegum
+415,Sky Witch,Princess Bubblegum
+416,Too Old,Princess Bubblegum
+417,Earth & Water,Princess Bubblegum
+418,The Vault,Princess Bubblegum
+419,James,Princess Bubblegum
+420,Root Beer Guy,Princess Bubblegum
+421,Apple Wedding,Princess Bubblegum
+422,Rattleballs,Princess Bubblegum
+423,Bad Timing,Princess Bubblegum
+424,Lemonhope Part 1,Princess Bubblegum
+425,Lemonhope Part 2,Princess Bubblegum
+426,James II,Princess Bubblegum
+427,The Tower,Princess Bubblegum
+428,Something Big,Princess Bubblegum
+429,Nemesis,Princess Bubblegum
+430,The Cooler,Princess Bubblegum
+431,The Pajama War,Princess Bubblegum
+432,Graybles 1000+,Princess Bubblegum
+433,Hot Diggity Doom,Princess Bubblegum
+434,Have You Seen the Muffin Mess,Princess Bubblegum
+435,Bonnie and Neddy,Princess Bubblegum
+436,Varmints,Princess Bubblegum
+437,Marceline The Vampire Queen,Princess Bubblegum
+438,Vamps About,Princess Bubblegum
+439,May I Come In?,Princess Bubblegum
+440,Take Her Back,Princess Bubblegum
+441,Checkmate,Princess Bubblegum
+442,The Dark Cloud,Princess Bubblegum
+443,The Thin Yellow Line,Princess Bubblegum
+444,Broke His Crown,Princess Bubblegum
+445,Elemental,Princess Bubblegum
+446,The Music Hole,Princess Bubblegum
+447,Reboot,Princess Bubblegum
+448,High Strangeness,Princess Bubblegum
+449,Jelly Beans Have Power,Princess Bubblegum
+450,The Invitation,Princess Bubblegum
+451,Skyhooks,Princess Bubblegum
+452,Hero Heart,Princess Bubblegum
+453,Bonnibel Bubblegum,Princess Bubblegum
+454,Seventeen,Princess Bubblegum
+455,Gumbaldia,Princess Bubblegum
+456,Come Along With Me,Princess Bubblegum
+457,Obsidian,Princess Bubblegum
+458,Trouble in Lumpy Space,Princess Bubblegum
+459,What is Life?,Princess Bubblegum
+460,Dungeon,Princess Bubblegum
+461,Power Animal,Princess Bubblegum
+462,To Cut a Woman's Hair,Princess Bubblegum
+463,Death in Bloom,Princess Bubblegum
+464,Susan Strong,Princess Bubblegum
+465,Video Makers,Princess Bubblegum
+466,No One Can Hear You,Princess Bubblegum
+467,Holly Jolly Secrets Part I,Princess Bubblegum
+468,Holly Jolly Secrets Part II,Princess Bubblegum
+469,Incendium,Princess Bubblegum
+470,Dream of Love,Princess Bubblegum
+471,In Your Footsteps,Princess Bubblegum
+472,Hug Wolf,Princess Bubblegum
+473,Princess Monster Wife,Princess Bubblegum
+474,King Worm,Princess Bubblegum
+475,Jake The Dog,Princess Bubblegum
+476,All the Little People,Princess Bubblegum
+477,The Great Bird Man,Princess Bubblegum
+478,Another Five More Short Graybles,Princess Bubblegum
+479,Candy Streets,Princess Bubblegum
+480,Frost & Fire,Princess Bubblegum
+481,Time Sandwich,Princess Bubblegum
+482,Red Starved,Princess Bubblegum
+483,We Fixed a Truck,Princess Bubblegum
+484,Play Date,Princess Bubblegum
+485,Breezy,Princess Bubblegum
+486,Food Chain,Princess Bubblegum
+487,Princess Day,Princess Bubblegum
+488,Everything's Jake,Princess Bubblegum
+489,Jake The Brick,Princess Bubblegum
+490,Dentist,Princess Bubblegum
+491,The Mountain,Princess Bubblegum
+492,Friends Forever,Princess Bubblegum
+493,Hoots,Princess Bubblegum
+494,Water Park Prank,Princess Bubblegum
+495,The Comet,Princess Bubblegum
+496,Cherry Cream Soda,Princess Bubblegum
+497,The Empress Eyes,Princess Bubblegum
+498,"The More You Moe, The Moe You Know (Part I)",Princess Bubblegum
+499,President Porpoise is Missing,Princess Bubblegum
+500,Scamps,Princess Bubblegum
+501,The Hall of Egress,Princess Bubblegum
+502,Don't Look,Princess Bubblegum
+503,Beyond the Grotto,Princess Bubblegum
+504,Pink Pond,Princess Bubblegum
+505,Bun Bun,Princess Bubblegum
+506,Daddy-Daughter Card Wars,Princess Bubblegum
+507,Reboot,Princess Bubblegum
+508,Two Swords,Princess Bubblegum
+509,Do No Harm,Princess Bubblegum
+510,Wheels,Princess Bubblegum
+511,Whipple the Happy Dragon,Princess Bubblegum
+512,The Light Cloud,Princess Bubblegum
+513,Orb,Princess Bubblegum
+514,Bespoken For,Princess Bubblegum
+515,Happy Warrior,Princess Bubblegum
+516,Skyhooks II,Princess Bubblegum
+517,Abstract,Princess Bubblegum
+518,Ketchup,Princess Bubblegum
+519,Whispers,Princess Bubblegum
+520,Three Buckets,Princess Bubblegum
+521,The Wild Hunt,Princess Bubblegum
+522,Son of Rap Bear,Princess Bubblegum
+523,Marcy & Hunson,Princess Bubblegum
+524,Blenanas,Princess Bubblegum
+525,Diamonds and Lemons,Princess Bubblegum
+526,Together Again,Princess Bubblegum
+527,Wizard City,Princess Bubblegum
+528,Business Time,Princess Bubblegum
+529,Still,Princess Bubblegum
+530,Apple Thief,Princess Bubblegum
+531,Marceline's Closet,Princess Bubblegum
+532,Hot to the Touch,Princess Bubblegum
+533,Gotcha!,Princess Bubblegum
+534,I Remember You,Princess Bubblegum
+535,Mystery Dungeon,Princess Bubblegum
+536,The Red Throne,Princess Bubblegum
+537,The Visitor,Princess Bubblegum
+538,Walnuts & Rain,Princess Bubblegum
+539,Mama Said,Princess Bubblegum
+540,Everything Stays,Princess Bubblegum
+541,Lady Rainicorn of the Crystal Dimension,Princess Bubblegum
+542,Winter Light,Princess Bubblegum
+543,Always BMO Closing,Princess Bubblegum
