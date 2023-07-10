@@ -1,19 +1,17 @@
 from scraper_characters import CharacterScraper
 from scraper_transcripts import TextScraper
+from char_data import CharacterData
 
-import os
 from pathlib import Path
-
-
-import spacy
-from spacy import displacy
+import pandas as pd
 
 import networkx as nx
 import matplotlib.pyplot as plt
 
 
-NER = spacy.load("en_core_web_sm")
 
+
+#STEP 1:
 
 # find_character = CharacterScraper()
 # find_character.scrape()
@@ -22,11 +20,14 @@ NER = spacy.load("en_core_web_sm")
 # collect_text = TextScraper()
 # collect_text.launch()
 
+#STEP 2:
+x = CharacterData()
+x.from_episode() #
 
 
-all_episodes = [i for i in os.scandir('data') if '.txt' in i.name]
-ep1 = all_episodes[0]
-ep1_text = open(ep1).read()
-doc = NER(ep1_text)
-
-displacy.serve(doc, style='ent', port=5001)
+#
+# def filter_ent(ent_list, char_df):
+#     return [i for i in ent_list if i in list(char_df.character_name)]
+#
+# xx =filter_ent(['Jake', 'f', 'fsfe'], character_df)
+# print(xx)
