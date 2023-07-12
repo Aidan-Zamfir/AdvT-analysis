@@ -3,10 +3,8 @@ import spacy
 import os
 
 NER = spacy.load("en_core_web_sm")
-try:
-    CHARACTER_DATAFRAME = pd.read_csv("character_list.csv")
-except:
-    pass
+CHARACTER_DATAFRAME = pd.read_csv("character_list.csv")
+
 
 class CharacterData:
 
@@ -34,6 +32,5 @@ class CharacterData:
 
 
     def filter_entities(self, entity_list, character_df):
-        # print([i for i in entity_list if i in list(character_df.character_name)])
-        print(list(character_df.character_name))
+        print([i for i in entity_list if i in list(character_df.character_name)])
 

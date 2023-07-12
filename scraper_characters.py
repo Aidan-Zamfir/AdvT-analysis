@@ -37,7 +37,7 @@ class CharacterScraper:
 
 
     def get_episodes(self):
-        """For each character get each episode which they appear in"""
+        """For each character get each episodes which they appear in"""
 
         for i in self.main_characters:
             if i['name'] == 'Finn' or i['name'] == 'Jake':
@@ -46,6 +46,13 @@ class CharacterScraper:
                 not_in_episode = [i.text for i in ep_list.find_elements(By.CSS_SELECTOR, 'ul li a')]
 
                 episode = self.compare_eps(not_in_episode)
+
+                for e in episode:
+                    self.episodes.append({'episode_name': e, 'character_name': i['name']})
+
+            elif i['name'] == 'Lady Rainicorn' or i['name'] == 'Lumpy Space Princess':
+                self.driver.get(i['url'])
+                ep_list = self.driver.find_element(By.XPATH, '//*[@id="mw-content-text"]/div')
 
                 for e in episode:
                     self.episodes.append({'episode_name': e, 'character_name': i['name']})
@@ -62,7 +69,7 @@ class CharacterScraper:
         """Create dataframe from episode/character data and save to csv"""
 
         character_df = pd.DataFrame(self.episodes)
-        character_df.to_csv('character_list.csv', 'w')
+        character_df.to_csv('character_list.csv')
 
 
     def compare_eps(self, not_in):
