@@ -3,7 +3,10 @@ import spacy
 import os
 
 NER = spacy.load("en_core_web_sm")
-CHARACTER_DATAFRAME = pd.read_csv("character_list.csv")
+try:
+    CHARACTER_DATAFRAME = pd.read_csv("character_list.csv")
+except:
+    pass
 
 class CharacterData:
 

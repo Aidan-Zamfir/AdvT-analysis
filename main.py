@@ -13,8 +13,9 @@ import matplotlib.pyplot as plt
 
 #STEP 1:
 
-# find_character = CharacterScraper()
-# find_character.scrape()
+find_character = CharacterScraper()
+find_character.scrape()
+
 
 #Use when transcript text files (in data folder) DONT exist:
 # collect_text = TextScraper()
