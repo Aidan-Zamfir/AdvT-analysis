@@ -12,6 +12,20 @@ class CharacterScraper:
         self.driver = webdriver.Chrome()
         self.main_characters = []
         self.episodes = []
+        self.all_ep = []
+
+    def all_episodes(self):
+        """Get all show episodes"""
+
+        self.driver.get("https://adventuretime.fandom.com/wiki/List_of_episodes#Original_Order")
+        episode_page = driver.find_element(By.XPATH, '//*[@id="mw-content-text"]/div/div[1]/div[3]')
+        episodes = episode_page.find_elements(By.CSS_SELECTOR, 'tbody tr td a')
+        self.all_ep = [i.text for i in episodes[10:]]
+
+        for i in self.all_ep:
+            if i == '':
+                self.all_ep.remove(i)
+
 
     def get_characters(self):
         """Retreive main character name & wiki link"""
@@ -35,6 +49,7 @@ class CharacterScraper:
 
     def dataframe(self):
         """Create dataframe from episode/character data and save to csv"""
+
         character_df = pd.DataFrame(self.episodes)
         character_df.to_csv('character_list.csv')
 
