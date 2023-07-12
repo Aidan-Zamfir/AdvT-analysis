@@ -30,13 +30,7 @@ class CharacterData:
 
 
         sentence_ent_df = pd.DataFrame(sentence_entity_list)
-        print(sentence_ent_df)
-        print("=======================") #works up to this point. Bellow is error
-        sentence_ent_df['character'] = sentence_ent_df['sentence'].apply(lambda x: self.filter_entities(self.entity_list, CHARACTER_DATAFRAME))
+        filtered_sent_df = sentence_ent_df[sentence_ent_df['character'].map(len) > 0]
+        print(filtered_sent_df)
 
-        print(sentence_ent_df)
-
-
-    def filter_entities(self, entity_list, character_df):
-        return [i for i in entity_list if i in list(character_df.character_name)]
 
