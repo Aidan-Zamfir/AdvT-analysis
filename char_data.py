@@ -10,7 +10,7 @@ CHARACTER_DATAFRAME = pd.read_csv("character_list.csv")
 
 class CharacterData:
 
-    def __int__(self):
+    def __init__(self):
         self.all_episodes = []
         self.window_size = 5
 
