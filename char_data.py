@@ -26,25 +26,21 @@ class CharacterData:
         """Create data frame with only sentences which contain
         a character name using spaCy"""
 
-        sentence_entity_list = []
-        self.entity_list = []
+        sentence_entity_list = [] #empty in character section...
+        self.entity_list = [] #empty...
 
         for i in self.doc.sents:
-            for j in i.ents:
-                self.entity_list.append(j.text)
-            # self.entity_list = [j.text for j in i.ents] #problem here -> empty list, [] always being saved last
+            self.entity_list = [j.text for j in i.ents]
             sentence_entity_list.append({'sentence': i, 'character': self.entity_list})
+            sentence_ent_df = pd.DataFrame(sentence_entity_list)
+        sentence_ent_df['character'] = sentence_ent_df['character'].apply(lambda x: self.filter_names(x, CHARACTER_DATAFRAME))
+        self.sentence_dataframe = sentence_ent_df[sentence_ent_df['character'].map(len) > 0] #here
+        print(sentence_ent_df)
 
-        sentence_ent_df = pd.DataFrame(sentence_entity_list)
-        print(sentence_ent_df)
-        sentence_ent_df['character'] = sentence_ent_df['sentence'].apply(lambda x: self.filter_names(self.entity_list['character'], CHARACTER_DATAFRAME))
-        print(sentence_ent_df)
-        # self.sentence_dataframe = sentence_ent_df[sentence_ent_df['character'].map(len) > 0]
-        # print(self.sentence_dataframe)
 
 
     def filter_names(self, ent_list, char_df):
-        """Filter out non main character name entities"""
+        """Filter out non 'main character' entities"""
 
         return [i for i in ent_list if i in list(char_df.character_name)]
 
