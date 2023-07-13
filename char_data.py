@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+from pathlib import Path
+import networkx as nx
 import pandas as pd
 import spacy
 import os
@@ -14,9 +17,12 @@ class CharacterData:
 
     def from_episode(self):
         """Extract epsiode transcript from data folder"""
+        #should add method to itterate over each episode,
+        #create df of all epsiodes,
+        #and compare data from all.
 
         self.all_episodes = [i for i in os.scandir('data') if '.txt' in i.name]
-        episode = self.all_episodes[1]
+        episode = self.all_episodes[10]
         episode_text = open(episode).read()
         self.doc = NER(episode_text)
         self.episode_dataframe()
@@ -65,6 +71,7 @@ class CharacterData:
                     self.relation_ships.append({'source': a, 'target': b,})
 
         self.relationship_df = pd.DataFrame(self.relation_ships)
+        self.relationship_strength()
 
     def relationship_strength(self):
         """Remove duplicate relationships & create
@@ -72,4 +79,16 @@ class CharacterData:
 
         self.relationship_df['value'] = 1
         self.relationship_df = self.relationship_df.groupby(['source','target'], sort=False, as_index=False).sum()
-        print(self.relationship_df)
+
+    def network_rel(self):
+        G = nx.from_pandas_edgelist(self.relationship_df, source='source',
+                                    target='target', edge_attr='value', create_using=nx.Graph())
+
+        pos = nx.kamada_kawai_layout(G)
+        nx.draw(G, with_labels=True, node_color='blue', edge_cmap=plt.cm.Blues, pos=pos)
+        plt.show()
+
+    def run(self):
+        self.from_episode()
+        self.get_names()
+        self.network_rel()
