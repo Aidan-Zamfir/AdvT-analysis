@@ -24,4 +24,5 @@ import matplotlib.pyplot as plt
 #STEP 2:
 x = CharacterData()
 x.from_episode()
-# x.get_names()
+x.get_names()
+x.relationship_strength()

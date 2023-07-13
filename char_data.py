@@ -26,17 +26,16 @@ class CharacterData:
         """Create data frame with only sentences which contain
         a character name using spaCy"""
 
-        sentence_entity_list = [] #empty in character section...
-        self.entity_list = [] #empty...
+        sentence_entity_list = []
+        self.entity_list = []
 
         for i in self.doc.sents:
             self.entity_list = [j.text for j in i.ents]
             sentence_entity_list.append({'sentence': i, 'character': self.entity_list})
             sentence_ent_df = pd.DataFrame(sentence_entity_list)
-        sentence_ent_df['character'] = sentence_ent_df['character'].apply(lambda x: self.filter_names(x, CHARACTER_DATAFRAME))
-        self.sentence_dataframe = sentence_ent_df[sentence_ent_df['character'].map(len) > 0] #here
-        print(sentence_ent_df)
 
+        sentence_ent_df['character'] = sentence_ent_df['character'].apply(lambda x: self.filter_names(x, CHARACTER_DATAFRAME))
+        self.sentence_dataframe = sentence_ent_df[sentence_ent_df['character'].map(len) > 0]
 
 
     def filter_names(self, ent_list, char_df):
@@ -45,8 +44,12 @@ class CharacterData:
         return [i for i in ent_list if i in list(char_df.character_name)]
 
 
-
     def get_names(self):
+        """Filter through character entities &
+        create a relationship dataframe"""
+
+
+        self.relation_ships = []
 
         for i in range(self.sentence_dataframe.index[-1]):
             end_i = min(i+5, self.sentence_dataframe.index[-1])
@@ -55,4 +58,18 @@ class CharacterData:
             self.unique_character = [character_list[i] for i in range(len(character_list))
                                      if (i==0) or character_list[i] != character_list[i-1]]
 
-            print(self.unique_character)
+            #compare character 'a' with 'b'
+            if len(self.unique_character) > 1:
+                for idx, a in enumerate(self.unique_character[:-1]):
+                    b = self.unique_character[idx +1]
+                    self.relation_ships.append({'source': a, 'target': b,})
+
+        self.relationship_df = pd.DataFrame(self.relation_ships)
+
+    def relationship_strength(self):
+        """Remove duplicate relationships & create
+        relationship weight between characters in df"""
+
+        self.relationship_df['value'] = 1
+        self.relationship_df = self.relationship_df.groupby(['source','target'], sort=False, as_index=False).sum()
+        print(self.relationship_df)
